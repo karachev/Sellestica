@@ -2,24 +2,25 @@ body {
 	width: 1400px;
 	margin: 0;
 	margin-top: -16px;
+	font-family: 'Roboto', sans-serif;
 }
 
 header {
+	position: relative;
 	.header-logo {
 		float: left;
-		padding: 18px 95px 13px 82px;
+		padding: 33px 95px 14px 82px;
 		background-color: #3498db;
 	}
 
 	.search {
 		float: left;
-		margin-top: 19px;
+		margin-top: 35px;
 		margin-left: 17px;
 		form {
 			input {
 				border: none;
 				padding: 1px 200px 0px 15px;
-				font-family: "Roboto";
 				font-size: 12.5px;
 				font-weight: lighter;
 				line-height: 35px;
@@ -36,16 +37,85 @@ header {
 		ul {
 			li {
 				display: inline-block;
-				a {
+				margin-right: 10px;
+			}
+		}
 
+		.navi-btn {
+			width: 21px;
+			height: 15px;
+		}
+
+		.btn-mail {
+			background: url(../img/email.png) no-repeat center;
+		}
+
+		.btn-world {
+			background: url(../img/World.png) no-repeat center;
+		}
+
+		.btn-cart {
+			background: url(../img/cart.png) no-repeat center;
+		}
+	}
+
+	.user-img {
+		position: absolute;
+		top: 37px;
+		left: 1263px;
+
+	}
+
+	.main-navigation {
+		clear: both;
+		background: #2c3e50;
+		ul {
+			margin: 0;
+			padding-bottom: 16px;
+			li {
+				display: inline-block;
+				padding-top: 14px;
+				padding-left: 54px;
+
+				a {
+					font-size: 25px;
+					font-weight: normal;
+					line-height: 45px;
+					color: #ffffff;
+					text-decoration: none;
+					padding-left: 27px;
 				}
 			}
 		}
+
+		a:first-child {
+			padding-left: 28px;
+		}
+
+		li:first-child {
+			padding-left: 23px;
+		}
+
+		.btn-dash {
+			background: url(../img/dashboard.png) no-repeat 2px;
+		}
+
+		.btn-stactics {
+			background: url(../img/stactics.png) no-repeat 2px;
+		}
+
+		.btn-sales {
+			background: url(../img/sales.png) no-repeat 2px;
+		}
+
+		.btn-customers {
+			background: url(../img/customers.png) no-repeat 2px;
+		}
+
+		.btn-settings {
+			background: url(../img/settings.png) no-repeat 2px;
+		}
 	}
-}
-
-
-.header-logo {
 }
 
 .clearfix::after {
